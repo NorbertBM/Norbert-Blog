@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style CSS style -->
+    <link rel="stylesheet" href="style.css" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav id="mainNav">
+          <ul>
+            <a href=""> <li class="nav-item active">Home</li> </a>
+
+            <a href="pages/blog.html"> <li class="nav-item">Blog</li> </a
+            ><a href="pages/about.html"> <li class="nav-item">About</li> </a
+            ><a href="pages/contact.html">
+              <li class="nav-item">Contact</li>
+            </a>
+          </ul>
+        </nav>
+        <h1>Jane Doe</h1>
+        <hr />
+        <section id="About">
+          <img
+            src="./img/profileImg.jpg"
+            alt="my profile pic"
+            style="width: 400px"
+          />
+          <div class="img-description">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id fugit
+              ullam eaque dolorum voluptate libero, quis modi nihil repudiandae
+              facere repellendus aliquam error cupiditate illum iusto porro
+              commodi autem hic.
+            </p>
+            <button class="btn">
+              <a href="pages/about.html">Read more...</a>
+            </button>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <section id="RecentPost">
+          <h2 class="subtitle">Recent Posts</h2>
+          <h3 class="subtitle">Check out my latest post and travel vlog</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cum
+            enim molestias voluptas voluptatum similique cupiditate sapiente,
+            natus iusto facere reiciendis repellat magni eum laboriosam, neque
+            quisquam error itaque sint!
+          </p>
+          <div class="posts">
+            <article class="post">
+              <!-- <img
+                  src="./img/blogPos-1.jpg"
+                  alt="post img-1"
+                  style="width: 200px"
+                /> -->
+              <div class="post-img-1"></div>
+              <h4>Lorem ipsum dolor sit.</h4>
+            </article>
+            <article class="post">
+              <!-- <img
+                src="./img/blogPos-2.jpg"
+                alt="post img-2"
+                style="width: 200px"
+              /> -->
+              <div class="post-img-2"></div>
+
+              <h4>Lorem ipsum dolor sit.</h4>
+            </article>
+            <article class="post">
+              <!-- <img
+                src="./img/blogPos-3.jpg"
+                alt="post img-3"
+                style="width: 200px"
+              /> -->
+              <div class="post-img-3"></div>
+              <h4>Lorem ipsum dolor sit.</h4>
+            </article>
+          </div>
+        </section>
+        <section id="Podcast">
+          <h2 class="subtitle">My Podcast</h2>
+          <!-- <audio controls autoplay="false">
+              something
+              <source src="./audio/piano.wav" />
+            </audio> -->
+          <article class="podcast-container">
+            <div class="podcast">
+              <iframe
+                allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                frameborder="0"
+                height="450"
+                style="
+                  width: 100%;
+                  max-width: 660px;
+                  overflow: hidden;
+                  background: transparent;
+                "
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                src="https://embed.podcasts.apple.com/de/podcast/weekly-code-quickies-with-norbert-b-m/id1455776215"
+              ></iframe>
+            </div>
+            <div class="podcast-description">
+              <h2>Weekly code quickies with Norbert B.M.</h2>
+              <h6>By Menyhart B. Norbert</h6>
+              <p>
+                Welcome to Menyhart B. Norbert's WCQ Podcast. This Podcast is
+                dedicated your weekly updates for Tech news, Coding tricks and
+                tips, React Angular Vue and more. I am your Host NorbertBM and
+                this episode we will ….
+              </p>
+            </div>
+            <ul class="podcast-episodes">
+              <li>
+                <h3>Latest episode</h3>
+                <iframe
+                  src="https://anchor.fm/menyhart-b-norbert9/embed/episodes/React-version-18--What-is-new-in-React-v18--How-to-Install-Update-and-run-React-JS-v18-e1h1hmp"
+                  height="102px"
+                  width="400px"
+                  frameborder="0"
+                  scrolling="no"
+                  title="My podcast"
+                ></iframe>
+              </li>
+              <li>
+                <h3>Most Shared</h3>
+                <iframe
+                  src="https://anchor.fm/menyhart-b-norbert9/embed/episodes/Top-10-Skills-You-Must-Know-2022-Before-You-Learn-ReactJS-e1e751u/a-a7cmpjs"
+                  height="102px"
+                  width="400px"
+                  frameborder="0"
+                  scrolling="no"
+                ></iframe>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <nav id="footerNav">
+        <ul>
+          <a href=""> <li class="nav-item">Home</li> </a>
+          <a href="pages/blog.html"> <li class="nav-item">Blog</li> </a
+          ><a href="pages/about.html"> <li class="nav-item">About</li> </a
+          ><a href="pages/contact.html">
+            <li class="nav-item">Contact</li>
+          </a>
+        </ul>
+      </nav>
+      <nav id="socialNav">
+        <ul>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/c/MenyhartMedia" target="_blank">
+            <i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-pinterest"></i
+          ></a>
+        </ul>
+      </nav>
+      <p>
+        &copy;2023
+        <a href="https://norbertbm.com" target="_blank"
+          >Menyhart Media & Education</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

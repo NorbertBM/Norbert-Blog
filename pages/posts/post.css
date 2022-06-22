@@ -1,0 +1,46 @@
+.post :hover::after {
+  content: "";
+}
+.post {
+  width: 750px;
+  height: auto;
+  padding: 64px;
+}
+.post h4 {
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.post h4:hover {
+  color: black;
+  cursor: default;
+}
+.post small {
+  font-weight: 200px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.post p {
+  margin-bottom: 16px;
+}
+.post > div {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.post > div:hover {
+  background-size: 100%;
+}
+
+.comments h5,
+.comments hr {
+  margin-bottom: 16px;
+}
+.comments {
+  margin-top: 32px;
+}
+.comments i {
+  font-size: 32px;
+}
