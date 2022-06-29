@@ -42,6 +42,10 @@ nav ul a li {
 #footerNav {
   text-transform: uppercase;
 }
+#footerNav,
+#socialNav{
+    max-width: 1200px;
+}
 #socialNav ul i {
   font-size: 32px;
   color: black;
