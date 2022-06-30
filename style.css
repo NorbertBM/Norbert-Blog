@@ -44,7 +44,8 @@ nav ul a li {
 }
 #footerNav,
 #socialNav{
-    max-width: 1200px;
+    max-width: 750px;
+    margin: auto;
 }
 #socialNav ul i {
   font-size: 32px;
